@@ -73,3 +73,54 @@ public class CrearZoo {
         root.appendChild(animal);
     }
 }
+/*
+PARA LEER EL XML
+ try {
+
+            File fichero = new File("zoo.xml");
+
+            DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
+            DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
+
+            Document doc = dBuilder.parse(fichero);
+
+            doc.getDocumentElement().normalize();
+
+            NodeList listaAnimales = doc.getElementsByTagName("animal");
+
+            for (int i = 0; i < listaAnimales.getLength(); i++) {
+
+                Element animal = (Element) listaAnimales.item(i);
+
+                String id = animal.getAttribute("id");
+
+                String nom = animal.getElementsByTagName("nom")
+                                   .item(0)
+                                   .getTextContent();
+
+                String especie = animal.getElementsByTagName("especie")
+                                       .item(0)
+                                       .getTextContent();
+
+                String aliment = animal.getElementsByTagName("aliment")
+                                       .item(0)
+                                       .getTextContent();
+
+                String edat = animal.getElementsByTagName("edat")
+                                    .item(0)
+                                    .getTextContent();
+
+                System.out.println("ID: " + id);
+                System.out.println("Nom: " + nom);
+                System.out.println("Espècie: " + especie);
+                System.out.println("Aliment: " + aliment);
+                System.out.println("Edat: " + edat);
+                System.out.println("----------------");
+            }
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+}
+*/
