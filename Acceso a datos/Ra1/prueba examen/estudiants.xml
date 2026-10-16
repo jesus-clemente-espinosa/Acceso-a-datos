@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<estudiants>
+    <estudiant id="1">
+        <nom>Marc</nom>
+        <edat>20</edat>
+        <nota>8.5</nota>
+    </estudiant>
+    <estudiant id="2">
+        <nom>Laia</nom>
+        <edat>22</edat>
+        <nota>9.1</nota>
+    </estudiant>
+</estudiants>
