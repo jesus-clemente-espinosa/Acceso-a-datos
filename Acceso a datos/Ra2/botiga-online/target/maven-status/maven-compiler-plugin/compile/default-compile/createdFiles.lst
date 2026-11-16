@@ -1,0 +1,10 @@
+model\Client.class
+dao\ProducteDAO.class
+util\Connexio.class
+dao\ClientDAO.class
+model\Producte.class
+model\LiniaComanda.class
+cat\botiga\botiga\online\App.class
+dao\ComandaDAO.class
+model\Comanda.class
+model\Descompte.class
